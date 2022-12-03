@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Fetch Code') {
       steps {
-        git(url: 'https://github.com/Narendra-sin/jenkinBlueocen.git', branch: 'devops')
+        git(url: 'https://github.com/Narendra-sin/jenkinBlueocen.git', branch: 'main')
       }
     }
 
